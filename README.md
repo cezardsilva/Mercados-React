@@ -1,12 +1,52 @@
-# React + Vite
+# Mercado 💰
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um **sistema de monitoramento financeiro** desenvolvido com **HTML**, **CSS** e **JavaScript**, integrando uma API de câmbio e criptomoedas para exibir cotações em tempo real.
 
-Currently, two official plugins are available:
+## 🚀 Sobre o projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O **Mercado** oferece um painel interativo que exibe cotações do **dólar**, **euro** e **Bitcoin (BTC)** com atualizações em tempo real, permitindo um acompanhamento preciso das variações do mercado financeiro.
 
-## Expanding the ESLint configuration
+## 🛠 Tecnologias utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** - Estrutura da interface e integração da API
+- **CSS** - Estilos e responsividade
+- **JavaScript** - Lógica do sistema
+- **API de Câmbio e Criptomoedas** - Consulta de dados financeiros em tempo real
+- **Usando pacote axios** para consumir os dados da API
+
+Axios:
+```sh
+npm install axios
+```
+
+## 📌 Funcionalidades
+
+- 📡 Atualização automática das cotações do dólar, euro e BTC
+- 📊 Interface intuitiva para acompanhamento de valores
+- 🔄 Integração com API de câmbio e criptomoedas
+
+## 💻 Como usar
+
+1. Clone este repositório:
+   ```sh
+   git clone https://github.com/cezardsilva/mercado.git
+
+2. Abra [Mercados-React](https://mercados-agora-react.netlify.app/) em um navegador.
+
+3. Veja as cotações atualizadas automaticamente.
+
+📌 Melhorias futuras
+
+    📉 Gráficos interativos de histórico das cotações
+
+    🔔 Alertas de variação de preços
+
+    🌎 Suporte a mais moedas e criptomoedas
+
+📝 Licença
+
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
+
+---
+Desenvolvido por [Cezar D Silva](https://github.com/cezardsilva)
+
